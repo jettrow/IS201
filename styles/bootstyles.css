@@ -1,0 +1,55 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(36, 83, 138) , rgb(148, 178, 235));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.tableau{
+    top: 114px;
+    bottom: 64px;
+    padding-left:12%;
+    padding-right:12%;
+    text-align:center;
+    text-decoration-color:black;
+}
+.footer {
+    bottom: 10px;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+    font-size: 14px;
+    background-color:#333;
+    color: #999999;
+    text-align: center;
+    position:fixed;
+}
+
+.caption {
+    font-weight: bold;
+    font-size:larger;
+    border-right: 20px;
+}

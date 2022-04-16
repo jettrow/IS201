@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to right, rgb(107, 173, 185) , rgb(202, 255, 213));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ressection {
+    font-weight: bold;
+    font-size:larger;
+    text-transform: uppercase;
+}
+
+.ressub {
+    font-style: italic;
+    text-decoration-color:rgb(85, 85, 85);
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.centertext {
+    text-align: center;
+    font-weight:bold;
+    font-style: italic;
+}
+
+.tabspace {
+    tab-size: 8px;
+}
+
+.center {
+    display: block;
+    margin-left:5px;
+    margin-right:5px;
+    width: 25%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+.centerimage {
+    text-align:center;
+    display:block;
+}
+
+.leftmenu{
+    top:114px;
+    left: 5px;
+    width: 200px;
+    bottom: 64px;
+    padding-right: 3px;
+    padding-left: 25px;
+}
+
+.footer{
+    background-color:#333;
+}
+  
+
